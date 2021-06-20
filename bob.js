@@ -23,7 +23,7 @@ class bob
 			var paperpos=this.body.position;
 			push()
 			translate(paperpos.x, paperpos.y);
-			rectMode(CENTER)
+			ellipseMode(CENTER)
 			//strokeWeight(4);
 			fill(255,0,255)
 			//imageMode(CENTER);
